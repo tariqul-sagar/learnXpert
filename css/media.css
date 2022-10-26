@@ -61,15 +61,48 @@
 	.box_time {
 	    font-weight: 400;
 	}
-	.btn_box {
+	.btn_common {
 	    margin: 15px 0;
-	    width: 112px;
+	    width: 122px;
 	    font-size: 15px;
 	}
-	.rc_overlay{
-		/*display: none;*/
+	.overly_h2 {
+	    margin: 50px 0 25px;
+	    font-size: 26px;
+	}
+	.btn_admission {
+	    width: 185px;
+	    height: 50px;
 	}
 	/*About Box end*/
+
+	/*About lms start*/
+	.about_lms{
+		padding: 0 0 70px;
+	}
+	.about_left{
+		margin-top: 25px;
+	}
+	.about_h1 {
+	    margin-bottom: 25px;
+	    font-size: 24px;
+	    text-align: center;
+	}
+	.about_p{
+		color: #858585;
+		text-align: justify;
+	}
+	.about_p2 {
+	    margin: 15px 0;
+	}
+	.btn_about{
+	    margin: 25px auto 0;
+	    display: flex;
+	}
+	.about_right{
+		text-align: center;
+	}
+	/*About lms end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -119,29 +152,60 @@
 	.box3{
 		margin-top: 60px;
 	}
-	.box_h2 {
-	    font-size: 24px;
-	}
-	.box_h5 {
-	    font-size: 16px;
-	    font-weight: 500;
-	}
+
 	.box_underline {
 	    margin: 18px 0;
-	    width: 45%;
+	    width: 24%;
 	}
-	.box_time {
-	    font-weight: 400;
+	.overly_h2 {
+	    margin: 50px 0 25px;
 	}
-	.btn_box {
+	.btn_common {
 	    margin: 15px 0;
-	    width: 112px;
+	    width: 122px;
 	    font-size: 15px;
 	}
-	.rc_overlay{
-		/*display: none;*/
+	.btn_admission {
+	    width: 235px;
+	    height: 50px;
 	}
 	/*About Box end*/
+
+	/*About lms start*/
+	.about_lms{
+		padding: 0 0 70px;
+	}
+	.about_left{
+		margin-top: 30px;
+	}
+	.about_h1 {
+	    margin-bottom: 30px;
+	    font-size: 26px;
+	    text-align: center;
+	}
+	.about_p2 {
+	    margin: 15px 0;
+	}
+	.btn_about{
+	    margin: 30px auto 0;
+	    display: flex;
+	}
+	.about_right{
+		text-align: center;
+	}
+	/*About lms end*/
+
+	/*Interest CSS start*/
+	.interest{
+		padding: 80px 0 100px;
+	}
+	.interest_box {
+	    margin-top: 40px;
+	    padding: 64px 0;
+	}
+	/*Interest end*/
+
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -173,7 +237,7 @@
 	/*Banner end*/
 
 
-	/*About start*/
+	/*About Box start*/
 	.b_box {
 	    padding: 16px;
 	}
@@ -191,12 +255,55 @@
 	.box_time {
 	    font-weight: 400;
 	}
-	.btn_box {
+	.btn_common {
 	    margin: 15px 0;
-	    width: 112px;
+	    width: 122px;
 	    font-size: 15px;
 	}
-	/*About end*/
+	.overly_h2 {
+	    margin: 50px 0 25px;
+	    font-size: 22px;
+	}
+	.btn_admission {
+	    width: 170px;
+	    height: 44px;
+	}
+	/*About Box end*/
+
+	/*About lms start*/
+	.about_lms{
+		padding: 0 0 80px;
+	}
+	.about_left{
+		margin-top: 30px;
+	}
+	.about_h1 {
+	    margin-bottom: 30px;
+	    font-size: 28px;
+	    text-align: center;
+	}
+	.about_p2 {
+	    margin: 15px 0;
+	}
+	.btn_about{
+	    margin: 30px auto 0;
+	    display: flex;
+	}
+	.about_right{
+		text-align: center;
+	}
+	/*About lms end*/
+
+	/*Interest start*/
+	/*Interest CSS start*/
+	.interest{
+		padding: 80px 0 100px;
+	}
+	.interest_box {
+	    margin-top: 40px;
+	    padding: 64px 0;
+	}
+	/*Interest end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -223,6 +330,24 @@
 	    font-size: 27px;
 	}
 	/*Banner end*/
+
+	/*About Box start*/
+	.overly_h2 {
+	    font-size: 28px;
+	}
+	/*About Box end*/
+
+	/*About lms start*/
+	.about_h1 {
+	    margin-bottom: 30px;
+	}
+	.about_p2 {
+	    margin: 20px 0;
+	}
+	.btn_about {
+	    margin-top: 35px;
+	}
+	/*About lms end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/

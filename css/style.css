@@ -16,6 +16,28 @@ body{
 	font-weight: 400;
 	color: #4d4d4d;
 }
+.btn_common{
+	margin: 20px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	width: 124px;
+	height: 35px;
+	color: #ffffff;
+	background-color: #1a56d6;
+	border-radius: 0;
+	border: 1px solid #1a56d6;
+	text-transform: uppercase;
+	transition: .33s ease-in-out;
+}
+.btn_common:hover{
+	color: #1a56d6 !important;
+	border: 1px solid #1a56d6 !important;
+}
+.common_h1{
+	margin: 0;
+	font-size: 30px;
+	font-weight: 700;
+}
 /*Common CSS end*/
 
 /*Header CSS start*/
@@ -131,21 +153,7 @@ header{}
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 }
-.btn_box{
-	margin: 20px 0;
-	width: 124px;
-	height: 35px;
-	color: #ffffff;
-	background-color: #1a56d6;
-	border-radius: 0;
-	border: 1px solid #1a56d6;
-	text-transform: uppercase;
-	transition: .33s ease-in-out;
-}
-.btn_box:hover{
-	color: #1a56d6 !important;
-	border: 1px solid #1a56d6 !important;
-}
+.btn_box{}
 .rc_r{
 	position: absolute;
 	top: 0;
@@ -173,19 +181,69 @@ header{}
 	color: #4d4d4d;
 }
 .btn_admission{
-	margin-bottom: 40px;
-	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 40px;	
 	font-weight: 500;
 	width: 270px;
 	height: 65px;
-	color: #1a56d6;
-	border: 1px solid #1a56d6;
-	border-radius: 0;
-	text-transform: uppercase;
-	transition: .33s ease-in-out;
+	color: #1a56d6 !important;
+	border: 1px solid #1a56d6!important;
+	background-color: transparent;
 }
 .btn_admission:hover{
 	color: #ffffff !important;
 	background-color: #1a56d6 !important;
 }
 /*About box CSS end*/
+
+
+/*About lms start*/
+.about_lms{
+	padding: 0 0 100px;
+	border-bottom: 1px solid #c3c3c3;
+}
+.about_left{}
+.about_h1{
+	margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #192041;
+}
+.about_p1{
+	margin: 0;
+}
+.about_p2{
+	margin: 30px 0;
+}
+.about_p3{
+	margin: 0;
+}
+.btn_about{
+	margin-top: 50px;
+}
+/*About lms end*/
+
+/*Interest CSS start*/
+.interest{
+	padding: 100px 0 120px;
+	background-image: url(../images/interest.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.interest_box{
+	margin-top: 50px;
+	padding: 90px 0;
+	display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 5px 8px 3px rgba(219,219,219,1);
+	-moz-box-shadow: 0px 5px 8px 3px rgba(219,219,219,1);
+	box-shadow: 0px 5px 8px 3px rgba(219,219,219,1);
+	transition: .8s ease-in-out;
+	cursor: pointer;
+}
+.interest_box img:hover{
+	transform: scale(.8);
+}
+/*Interest CSS end*/
