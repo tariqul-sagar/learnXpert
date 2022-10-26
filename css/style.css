@@ -1,4 +1,3 @@
-
 /*
 font-family: 'PT Serif', serif;
 font-family: 'Montserrat', sans-serif;
@@ -50,6 +49,7 @@ header{}
 	font-size: 12px;
 	color: #ffffff;
 	background-color: #1a56d6;
+	cursor: pointer;
 }
 
 /*Header body*/
@@ -247,3 +247,76 @@ header{}
 	transform: scale(.8);
 }
 /*Interest CSS end*/
+
+
+/*Course CSS start*/
+.course{
+	padding: 100px 0 120px;
+}
+.course_content{
+	margin-top: 45px;
+	border: 1px solid #e9e9e9;
+	transition: .33s ease-in-out;
+}
+.course_content:hover{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(140,140,140,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(140,140,140,1);
+	box-shadow: 0px 0px 5px 0px rgba(140,140,140,1);
+}
+.course_img{}
+.course_img img{}
+.course_inner{
+	padding: 0 30px;
+}
+.inner_top{
+	margin: 30px 0 40px;
+}
+.top_left{}
+.top_left ul{
+	margin: 5px 0 13px 0;
+}
+.top_left ul li{
+	font-size: 13px;
+}
+.inner_h2{
+	font-size: 18px;
+	font-weight: 700;
+	color: #333333;
+}
+.top_right{
+	text-align: right;
+}
+.price{
+	font-size: 26px;
+    font-weight: 700;
+    color: #1414d9;
+    text-align: right;
+    text-transform: uppercase;
+}
+.top_right ul{
+	margin: 0;
+	color: #ed8000;
+}
+.last-child:not(:last-child) {
+    margin-right: 0;
+}
+.top_right ul li{
+	font-size: 12px;
+}
+.inner_body{}
+.inner_body p{
+	margin: 0;
+	color: #8c8c8c;
+}
+.btn_course{
+	width: 160px;
+	height: 50px;
+	color: #ffffff !important;
+	background-color: #1a56d6 !important;
+}
+.btn_course:hover{
+	color: #1a56d6 !important;
+	border: 1px solid #1a56d6!important;
+	background-color: transparent !important;
+}
+/*Course CSS end*/
