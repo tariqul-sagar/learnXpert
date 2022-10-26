@@ -103,6 +103,20 @@
 		text-align: center;
 	}
 	/*About lms end*/
+
+	/*Interest CSS start*/
+	.common_h1 {
+	    font-size: 20px;
+	    text-align: center;
+	}
+	.interest{
+		padding: 70px 0;
+	}
+	.interest_box {
+	    margin-top: 35px;
+	    padding: 95px 0;
+	}
+	/*Interest end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -196,12 +210,16 @@
 	/*About lms end*/
 
 	/*Interest CSS start*/
+	.common_h1 {
+	    font-size: 28px;
+	    text-align: center;
+	}
 	.interest{
-		padding: 80px 0 100px;
+		padding: 70px 0;
 	}
 	.interest_box {
-	    margin-top: 40px;
-	    padding: 64px 0;
+	    margin-top: 35px;
+	    padding: 79px 0;
 	}
 	/*Interest end*/
 
