@@ -13,9 +13,9 @@
 
 })(jQuery);
 
-	jQuery(document).ready(function($) {
+	(function($) {
 	            $('.counter').counterUp({
 	                delay: 10,
 	                time: 5000
 	            });
-	        });
+	        })(jQuery);
