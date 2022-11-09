@@ -368,7 +368,7 @@ header{}
 }
 .achieve_h1{}
 .achieve_content{
-	margin: 60px 0 50px;
+	margin: 60px 0 0;
 }
 .ach_img{
 	margin: 0 auto;
@@ -387,7 +387,7 @@ header{}
 	font-weight: 700;
 }
 .achieve_hr hr{
-	margin: 0;
+	margin: 50px 0 0;
 }
 .achieve_p2{
 	margin: 35px 0;
@@ -398,5 +398,10 @@ header{}
 .iframe{
 	margin-top: -115px;
 	padding-bottom: 100px;
+	text-align: center;
+}
+.i_frame{
+	width: 100%;
+	height: 375px;
 }
 /*iFrame CSS end*/

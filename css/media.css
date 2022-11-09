@@ -164,6 +164,44 @@
 		margin: 25px auto 25px;
 	}
 	/*Course end*/
+
+	/*Achievement start*/
+	.achievement{
+		padding: 70px 0;
+	}
+	.achieve_h1{
+		text-align: center;
+	}
+	.achieve_content{
+		margin: 35px 0 0;
+		padding: 15px 40px;
+		-webkit-box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
+		-moz-box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
+		box-shadow: 0px 0px 10px 5px rgba(255,255,255,1);
+	}
+	.ach_img {
+	    width: 40px;
+	    height: 40px;
+	}
+	.achieve_text span {
+	    font-size: 22px;
+	}
+	.achieve_hr hr{
+		margin: 45px auto 0;
+		width: 70%;
+	}
+	.achieve_p2{
+		margin: 30px 0;
+		text-align: center;
+	}
+	/*Achievement end*/
+
+	/*iFrame start*/
+	.iframe{
+		margin-top: -70px;
+		padding-bottom: 70px;
+	}
+	/*iFrame end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -311,6 +349,35 @@
 	}
 	/*Course end*/
 
+	/*Achievement start*/
+	.achievement{
+		padding: 70px 0;
+	}
+	.achieve_h1{
+		text-align: center;
+	}
+	.achieve_content{
+		margin: 40px 0 0;
+	}
+	.achieve_text span {
+	    font-size: 26px;
+	}
+	.achieve_hr hr{
+		margin: 45px 0 0;
+	}
+	.achieve_p2{
+		margin: 30px 0;
+		padding-right: 75px;
+	}
+	/*Achievement end*/
+
+	/*iFrame start*/
+	.iframe{
+		margin-top: -70px;
+		padding-bottom: 70px;
+	}
+	/*iFrame end*/
+
 
 }
 
@@ -447,6 +514,18 @@
 		margin: 30px auto 25px;
 	}
 	/*Course end*/
+
+	/*Achievement start*/
+	.achievement{
+		padding: 80px 0 100px;
+	}
+	.achieve_h1{
+		text-align: center;
+	}
+	.achieve_content{
+		margin: 40px 0 0;
+	}
+	/*Achievement end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
