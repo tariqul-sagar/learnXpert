@@ -15,6 +15,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
+    <!-- jQuery File -->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <!-- Custom CSS File -->
@@ -68,10 +72,11 @@
                   <img class="img-fluid" src="images/logo.png" alt="Printer">
                 </div>
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_id" aria-controls="nav_id" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+              <!-- Menu start -->
+              <div class="collapse navbar-collapse menu" id="nav_id">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -93,12 +98,29 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                  </li>
+                  </li>                  
                 </ul>
+                <!-- Search bar start -->
+                <div class="dropdown">
+                  <a class="btn btn_dd dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </a>
+                  <ul class="dropdown-menu dd_menu">
+                    <form action="#">
+                      <div class="row g-0">
+                        <div class="col-11">
+                          <input type="text" class="form-control dd_input" placeholder="Search here">
+                        </div>
+                        <div class="col-1">
+                          <button class="btn dd_search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                      </div>
+                    </form>
+                  </ul>
+                </div>
+                <!-- Search bar end -->
               </div>
+              <!-- Menu end -->
             </div>
           </nav>
           <!-- Navbar end -->
@@ -275,122 +297,130 @@
     <section class="course">
       <div class="container">
         <div class="common_div_h1">
-          <h1 class="common_h1">Latest Courses</h1>
+          <h1 class="common_h1 course_h1">Latest Courses</h1>
         </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="course_content">
-              <div class="course_img">
-                <img class="img-fluid" src="images/course1.jpg" alt="Printer">
-              </div>
-              <div class="course_inner">
-                <div class="inner_top">
-                  <div class="row">
-                    <div class="col-lg">
-                      <div class="top_left">
-                        <ul class="list-inline">
-                          <li class="list-inline-item"><i class="fa-solid fa-folder-open"></i></li>
-                          <li class="list-inline-item">Business</li>
-                        </ul>
-                        <h2 class="inner_h2">Fashion Design</h2>
+        <div class="course_all_content">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="course_content">
+                <div class="course_img">
+                  <img class="img-fluid" src="images/course1.jpg" alt="Printer">
+                </div>
+                <div class="course_inner">
+                  <div class="inner_top">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="top_left">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa-solid fa-folder-open"></i></li>
+                            <li class="list-inline-item">Business</li>
+                          </ul>
+                          <h2 class="inner_h2">Fashion Design</h2>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-lg">
-                      <div class="top_right">
-                        <span class="price">$159.00</span>
-                        <ul class="list-inline">
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star-half-stroke"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-regular fa-star"></i></li>
-                        </ul>
+                      <div class="col-6">
+                        <div class="top_right">
+                          <span class="price">$159.00</span>
+                          <ul class="list-inline">
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star-half-stroke"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-regular fa-star"></i></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
+                  <div class="inner_body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ac tellus luctus, ut volutpat neque dictumIn vestibulum ut velit accumsan fermentum..(...)</p>
+                  </div>
+                  <div class="course_button">
+                    <button type="button" class="btn btn_common btn_course">Apply Now</button>
+                  </div>
                 </div>
-                <div class="inner_body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ac tellus luctus, ut volutpat neque dictumIn vestibulum ut velit accumsan fermentum..(...)</p>
-                </div>
-                <button type="button" class="btn btn_common btn_course">Apply Now</button>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4">
-            <div class="course_content">
-              <div class="course_img">
-                <img class="img-fluid" src="images/course2.jpg" alt="Printer">
-              </div>
-              <div class="course_inner">
-                <div class="inner_top">
-                  <div class="row">
-                    <div class="col-lg">
-                      <div class="top_left">
-                        <ul class="list-inline">
-                          <li class="list-inline-item"><i class="fa-solid fa-folder-open"></i></li>
-                          <li class="list-inline-item">Computer Science</li>
-                        </ul>
-                        <h2 class="inner_h2">Mathematics</h2>
+            <div class="col-lg-4">
+              <div class="course_content">
+                <div class="course_img">
+                  <img class="img-fluid" src="images/course2.jpg" alt="Printer">
+                </div>
+                <div class="course_inner">
+                  <div class="inner_top">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="top_left">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa-solid fa-folder-open"></i></li>
+                            <li class="list-inline-item">Computer Science</li>
+                          </ul>
+                          <h2 class="inner_h2">Mathematics</h2>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-lg">
-                      <div class="top_right">
-                        <span class="price">$159.00</span>
-                        <ul class="list-inline">
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star-half-stroke"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-regular fa-star"></i></li>
-                        </ul>
+                      <div class="col-6">
+                        <div class="top_right">
+                          <span class="price">$159.00</span>
+                          <ul class="list-inline">
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star-half-stroke"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-regular fa-star"></i></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
+                  <div class="inner_body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ac tellus luctus, ut volutpat neque dictumIn vestibulum ut velit accumsan fermentum..(...)</p>
+                  </div>
+                  <div class="course_button">
+                    <button type="button" class="btn btn_common btn_course">Apply Now</button>
+                  </div>
                 </div>
-                <div class="inner_body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ac tellus luctus, ut volutpat neque dictumIn vestibulum ut velit accumsan fermentum..(...)</p>
-                </div>
-                <button type="button" class="btn btn_common btn_course">Apply Now</button>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4">
-            <div class="course_content">
-              <div class="course_img">
-                <img class="img-fluid" src="images/course3.jpg" alt="Printer">
-              </div>
-              <div class="course_inner">
-                <div class="inner_top">
-                  <div class="row">
-                    <div class="col-lg">
-                      <div class="top_left">
-                        <ul class="list-inline">
-                          <li class="list-inline-item"><i class="fa-solid fa-folder-open"></i></li>
-                          <li class="list-inline-item">Marketing</li>
-                        </ul>
-                        <h2 class="inner_h2">Natural Science</h2>
+            <div class="col-lg-4">
+              <div class="course_content">
+                <div class="course_img">
+                  <img class="img-fluid" src="images/course3.jpg" alt="Printer">
+                </div>
+                <div class="course_inner">
+                  <div class="inner_top">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="top_left">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa-solid fa-folder-open"></i></li>
+                            <li class="list-inline-item">Marketing</li>
+                          </ul>
+                          <h2 class="inner_h2">Natural Science</h2>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-lg">
-                      <div class="top_right">
-                        <span class="price">Free</span>
-                        <ul class="list-inline">
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-solid fa-star-half-stroke"></i></li>
-                          <li class="list-inline-item last-child"><i class="fa-regular fa-star"></i></li>
-                        </ul>
+                      <div class="col-6">
+                        <div class="top_right">
+                          <span class="price">Free</span>
+                          <ul class="list-inline">
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-solid fa-star-half-stroke"></i></li>
+                            <li class="list-inline-item last-child"><i class="fa-regular fa-star"></i></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
+                  <div class="inner_body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ac tellus luctus, ut volutpat neque dictumIn vestibulum ut velit accumsan fermentum..(...)</p>
+                  </div>
+                  <div class="course_button">
+                    <button type="button" class="btn btn_common btn_course">Apply Now</button>
+                  </div>
                 </div>
-                <div class="inner_body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ac tellus luctus, ut volutpat neque dictumIn vestibulum ut velit accumsan fermentum..(...)</p>
-                </div>
-                <button type="button" class="btn btn_common btn_course">Apply Now</button>
               </div>
             </div>
           </div>
@@ -400,8 +430,39 @@
     <!-- Courses section end -->
 
 
+    <!-- Achievement section start -->
+    <section class="achievement">
+      <div class="container">
+        <div class="common_div_h1">
+          <h1 class="common_h1 achieve_h1">Our Achievements</h1>
+        </div>
+
+        <div class="row">
+          <!-- Single Item start -->
+          <div class="col-lg-3">
+            <div class="achieve_content">
+              <div class="row">
+                <div class="col-4"></div>
+                <div class="col-8">
+                  <div class="achieve_text">
+                    <span class="counter">7640</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Item end -->
+        </div>
+      </div>
+    </section>
+    <!-- Achievement section end -->
+
+
     <!-- jQuery File -->
     <script src="js/jquery.min.js"></script>
+    <!-- Counter jQuery -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
     <!-- Bootstrap JS File -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS File -->

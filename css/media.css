@@ -6,10 +6,21 @@
 		text-align: center;
 	}
 	.menu ul li{
-		text-align: right;
+		text-align: left;
 	}
 	.menu ul li a{
 		margin: 0;
+	}
+	.btn_dd{
+		padding: 0;
+	}
+	.dd_menu {
+	    padding: 0 10px 0 0;
+	    width: 290px;
+	}
+	.dd_menu[data-bs-popper] {
+	    top: 44px;
+	    left: -7px;
 	}
 	/*Header end*/
 
@@ -117,6 +128,42 @@
 	    padding: 95px 0;
 	}
 	/*Interest end*/
+
+	/*Course start*/
+	.course{
+		padding: 70px 0;
+	}
+	.course_h1{
+		text-align: center;
+	}
+	.course_inner {
+	    padding: 0 5px;
+	}
+	.top_left ul {
+	    margin: 5px 0 10px 0;
+	}
+	.top_left ul li {
+	    font-size: 12px;
+	}
+	.top_right {
+	    margin-top: 6px;
+	}
+	.inner_h2{
+		font-size: 16px;
+	}
+	.inner_top {
+	    margin: 20px 0;
+	}
+	.price {
+	    font-size: 20px;
+	}
+	.course_button{
+		text-align: center;
+	}
+	.btn_course {
+		margin: 25px auto 25px;
+	}
+	/*Course end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -126,10 +173,21 @@
 		margin-right: 2px;
 	}
 	.menu ul li{
-		text-align: right;
+		text-align: left;
 	}
 	.menu ul li a{
 		margin: 0;
+	}
+	.btn_dd{
+		padding: 0;
+	}
+	.dd_menu {
+	    padding: 0 10px 0 0;
+	    width: 300px;
+	}
+	.dd_menu[data-bs-popper] {
+	    top: -4px;
+	    left: 212px;
 	}
 	/*Header end*/
 
@@ -223,6 +281,36 @@
 	}
 	/*Interest end*/
 
+	/*Course start*/
+	.course{
+		padding: 70px 0;
+	}
+	.course_h1{
+		text-align: center;
+	}
+	.course_all_content{
+		padding: 0 80px;
+	}
+	.course_inner {
+	    padding: 0 15px;
+	}
+	.top_left ul {
+	    margin: 5px 0 10px 0;
+	}
+	.inner_top {
+	    margin: 25px 0 20px;
+	}
+	.price {
+	    font-size: 24px;
+	}
+	.course_button{
+		text-align: center;
+	}
+	.btn_course {
+		margin: 25px auto 25px;
+	}
+	/*Course end*/
+
 
 }
 
@@ -230,10 +318,20 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
 	/*Header start*/
 	.menu ul li{
-		text-align: right;
+		text-align: left;
 	}
 	.menu ul li a{
 		margin: 0;
+	}
+	.btn_dd{
+		padding: 0;
+	}
+	.dd_menu {
+	    padding: 0 10px 0 0;
+	}
+	.dd_menu[data-bs-popper] {
+	    top: -5px;
+	    left: 305px;
 	}
 	/*Header end*/
 
@@ -322,13 +420,40 @@
 	    padding: 64px 0;
 	}
 	/*Interest end*/
+
+	/*Course start*/
+	.course{
+		padding: 80px 0 100px;
+	}
+	.course_h1{
+		text-align: center;
+	}
+	.course_all_content{
+		padding: 0 80px;
+	}
+	.top_left ul {
+	    margin: 5px 0 10px 0;
+	}
+	.inner_top {
+	    margin: 25px 0 20px;
+	}
+	.price {
+	    font-size: 24px;
+	}
+	.course_button{
+		text-align: center;
+	}
+	.btn_course {
+		margin: 30px auto 25px;
+	}
+	/*Course end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	/*Header start*/
 	.menu ul li a{
-		margin: 0 25px;
+		margin: 0 12px;
 	}
 	/*Header end*/
 
@@ -366,6 +491,39 @@
 	    margin-top: 35px;
 	}
 	/*About lms end*/
+
+	/*Course start*/
+	.course_inner {
+	    padding: 0 10px;
+	}
+	.inner_top {
+	    margin: 20px 0 25px;
+	}
+	.top_left ul {
+	    margin: 3px 0 8px 0;
+	}
+	.top_left ul li{
+		margin-right: 0 !important;
+		font-size: 13px;
+	}
+	.price {
+	    font-size: 21px;
+	}
+	.inner_h2 {
+	    font-size: 16px;
+	}
+	.inner_body p {
+	    text-align: center;
+	}
+	.course_button{
+		text-align: center;
+	}
+	.btn_course {
+		margin: 30px auto 25px;
+	    width: 130px;
+	    height: 40px;
+	}
+	/*Course end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/
