@@ -124,8 +124,8 @@
 		padding: 70px 0;
 	}
 	.interest_box {
-	    margin-top: 35px;
-	    padding: 95px 0;
+	    margin: 35px 30px 0;
+	    padding: 70px 0;
 	}
 	/*Interest end*/
 
@@ -202,6 +202,43 @@
 		padding-bottom: 70px;
 	}
 	/*iFrame end*/
+
+	/* Live start */
+	.live_class{
+		padding: 70px 0;
+	}
+	.live_left{
+		text-align: center;
+	}
+	.live_left_p {
+	    font-size: 16px;
+	}
+	.live_left_h2 {
+	    font-size: 22px;
+	}
+	.live_left_p2{
+		margin: 15px 0;
+		padding: 0 9px;
+	}
+	.btn_live{
+		width: 180px;
+		height: 45px;
+	}
+	.live_right{
+		margin-top: 30px;
+		padding: 0 10px;
+	}
+	.live_right_p{
+		margin-top: 12px;
+		font-size: 15px;
+	}
+	.live_icon{
+		margin-top: -25px;
+	}
+	.live_fa{
+		padding: 2px 3px;
+	}
+	/* Live end */
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -378,6 +415,40 @@
 	}
 	/*iFrame end*/
 
+	/* Live start */
+	.live_class{
+		padding: 70px 0;
+	}
+	.live_left{
+		text-align: center;
+	}
+	.live_left_p {
+	    font-size: 17px;
+	}
+	.live_left_h2 {
+	    font-size: 24px;
+	}
+	.live_left_p2{
+		margin: 20px 0;
+		padding: 0 30px;
+	}
+	.btn_live{
+		width: 200px;
+		height: 55px;
+	}
+	.live_right{
+		margin-top: 30px;
+		padding: 0 50px;
+	}
+	.live_right_p{
+		margin-top: 10px;
+		font-size: 16px;
+	}
+	.live_fa{
+		padding: 2px 3px;
+	}
+	/* Live end */
+
 
 }
 
@@ -477,13 +548,12 @@
 	}
 	/*About lms end*/
 
-	/*Interest start*/
 	/*Interest CSS start*/
 	.interest{
 		padding: 80px 0 100px;
 	}
 	.interest_box {
-	    margin-top: 40px;
+	    margin: 40px 0 0;
 	    padding: 64px 0;
 	}
 	/*Interest end*/
@@ -526,6 +596,35 @@
 		margin: 40px 0 0;
 	}
 	/*Achievement end*/
+
+	/* Live start */
+	.live_class{
+		padding: 80px 0 100px;
+	}
+	.live_left_p {
+	    font-size: 18px;
+	}
+	.live_left_h2 {
+	    font-size: 26px;
+	}
+	.live_left_p2{
+		margin: 25px 0;
+		padding-right: 0;
+	}
+	.live_right_img img{
+		height: 280px;
+	}
+	.btn_live{
+		width: 200px;
+		height: 55px;
+	}
+	.live_right_p{
+		font-size: 16px;
+	}
+	.live_fa{
+		padding: 3px 5px;
+	}
+	/* Live end */
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -533,6 +632,14 @@
 	/*Header start*/
 	.menu ul li a{
 		margin: 0 12px;
+	}
+	.dd_menu[data-bs-popper] {
+	    top: 61px;
+	    left: -339px;
+	}
+	.dd_menu {
+		padding: 5px;
+	    width: 360px;
 	}
 	/*Header end*/
 
@@ -571,6 +678,7 @@
 	}
 	/*About lms end*/
 
+
 	/*Course start*/
 	.course_inner {
 	    padding: 0 10px;
@@ -603,10 +711,40 @@
 	    height: 40px;
 	}
 	/*Course end*/
+
+	/* Live start */
+	.live_left_p2{
+		margin: 25px 0;
+	}
+	.btn_live{
+		width: 220px;
+		height: 60px;
+	}
+	/* Live end */
 }
 
 /*Extra large devices (desktops, 992px and up)*/
-@media (min-width: 1200px) and (max-width: 1399.98px) { ... }
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/* Header start */
+	.dd_menu[data-bs-popper] {
+	    top: 61px;
+	    left: -381px;
+	}
+	/* Header end */
+}
 
 /*Extra extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1400px) { ... }
+@media (min-width: 1400px) {
+	/* Header start */
+	.dd_menu[data-bs-popper] {
+	    top: 61px;
+	    left: -379px;
+	}
+	/* Header end */
+
+	/* Live start */
+	.live_left{
+		margin-top: 45px;
+	}
+	/* Live end */
+}

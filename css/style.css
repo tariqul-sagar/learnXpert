@@ -79,8 +79,8 @@ header{}
 	display: none;
 }
 .dd_menu {
-    width: 400px;
-    padding: 10px;
+	padding: 10px;
+    width: 400px;    
     border: 1px solid #1a56d6;
     border-radius: 5px;
 }
@@ -259,7 +259,7 @@ header{}
 	background-repeat: no-repeat;
 }
 .interest_box{
-	margin-top: 50px;
+	margin: 50px 0 0;
 	padding: 90px 0;
 	display: flex;
     background-color: #ffffff;
@@ -405,3 +405,55 @@ header{}
 	height: 375px;
 }
 /*iFrame CSS end*/
+
+/*Live class CSS start*/
+.live_class{
+	padding: 100px 0 120px;
+	background-color: #fafafa;
+}
+.live_left{}
+.live_left_p{
+	margin: 0;
+	font-size: 20px;
+	color: #666666;
+}
+.live_left_h2{
+	margin-top: 5px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.live_left_p2{
+	margin: 45px 0;
+	padding-right: 55px;
+}
+.live_button{}
+.btn_live{
+	width: 250px;
+	height: 65px;
+}
+.live_right{}
+.live_right_img{
+	height: auto;
+	-webkit-box-shadow: 0px 10px 10px 0px rgba(142,142,142,1);
+	-moz-box-shadow: 0px 10px 10px 0px rgba(142,142,142,1);
+	box-shadow: 0px 10px 10px 0px rgba(142,142,142,1);
+}
+.live_right_img img{
+	width: 100%;
+}
+.live_right_p{
+	margin: 15px 0 0;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+.live_icon{
+	margin-top: -28px;
+	text-align: right;
+}
+.live_fa{
+	padding: 5px 10px;
+	color: #ffffff;
+	background-color: #1a56d6;
+}
+/*Live class CSS end*/
