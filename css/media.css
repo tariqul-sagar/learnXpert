@@ -221,6 +221,7 @@
 		padding: 0 9px;
 	}
 	.btn_live{
+		font-size: 14px;
 		width: 180px;
 		height: 45px;
 	}
@@ -433,8 +434,8 @@
 		padding: 0 30px;
 	}
 	.btn_live{
-		width: 200px;
-		height: 55px;
+		width: 195px;
+		height: 45px;
 	}
 	.live_right{
 		margin-top: 30px;
@@ -616,7 +617,7 @@
 	}
 	.btn_live{
 		width: 200px;
-		height: 55px;
+		height: 45px;
 	}
 	.live_right_p{
 		font-size: 16px;

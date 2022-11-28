@@ -433,7 +433,6 @@ header{}
 }
 .live_right{}
 .live_right_img{
-	height: auto;
 	-webkit-box-shadow: 0px 10px 10px 0px rgba(142,142,142,1);
 	-moz-box-shadow: 0px 10px 10px 0px rgba(142,142,142,1);
 	box-shadow: 0px 10px 10px 0px rgba(142,142,142,1);
@@ -457,3 +456,23 @@ header{}
 	background-color: #1a56d6;
 }
 /*Live class CSS end*/
+
+/*Gallery CSS start*/
+.gallery{}
+.gallery_left1{}
+.gallery_left1 img{
+	width: 100%;
+}
+.gallery_left2{}
+.gallery_left2 img{
+	width: 100%;
+}
+.gallery_left3{}
+.gallery_left3 img{
+	width: 100%;
+}
+.gallery_left4{}
+.gallery_left4 img{
+	width: 100%;
+}
+/*Gallery CSS end*/
