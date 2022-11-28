@@ -297,6 +297,17 @@
 		margin-top: 35px;
 		padding: 0 15px;
 	}
+	.footer_bottom{
+		text-align: center;
+	}
+	.fb_left ul li a{
+		margin-right: 5px;
+	}
+	.fb_right_p{
+		margin-top: 15px;
+		font-size: 14px;
+		text-align: center;
+	}
 	/* Footer end */
 }
 
@@ -544,9 +555,22 @@
 	.footer_icon ul li a{
 		margin: 0 25px;
 	}
+	.address{
+		padding-left: 20px;
+	}
+	.links{
+		padding-left: 50px;
+	}
 	.footer_map{
 		margin-top: 40px;
 		padding: 0 35px;
+	}
+	.footer_bottom{
+		text-align: center;
+	}
+	.fb_right_p{
+		margin-top: 15px;
+		text-align: center;
 	}
 	/* Footer end */
 
@@ -758,9 +782,22 @@
 		margin: 0 25px;
 		font-size: 20px;
 	}
+	.address{
+		padding-left: 50px;
+	}
+	.links{
+		padding-left: 100px;
+	}
 	.footer_map{
 		margin-top: 45px;
 		padding: 0 70px;
+	}
+	.fb_left ul li a{
+		margin-right: 5px;
+	}
+	.fb_right_p{
+		margin-top: 3px;
+		font-size: 14px;
 	}
 	/* Footer end */
 
