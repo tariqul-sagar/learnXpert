@@ -280,6 +280,23 @@
 	.footer_icon ul li a{
 		margin: 0 25px;
 	}
+	.address{
+		text-align: center;
+	}
+	.fb_p{
+		font-size: 16px;
+	}
+	.fb_p2{
+		margin-top: 15px;
+	}
+	.links{
+		margin-top: 40px;
+		text-align: center;
+	}
+	.footer_map{
+		margin-top: 35px;
+		padding: 0 15px;
+	}
 	/* Footer end */
 }
 
@@ -527,6 +544,10 @@
 	.footer_icon ul li a{
 		margin: 0 25px;
 	}
+	.footer_map{
+		margin-top: 40px;
+		padding: 0 35px;
+	}
 	/* Footer end */
 
 
@@ -737,7 +758,12 @@
 		margin: 0 25px;
 		font-size: 20px;
 	}
+	.footer_map{
+		margin-top: 45px;
+		padding: 0 70px;
+	}
 	/* Footer end */
+
 }
 
 /*Large devices (desktops, 992px and up)*/
